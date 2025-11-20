@@ -1,0 +1,24 @@
+/* App.css */
+.chat-scrollbar {
+  scrollbar-width: thin;
+  scrollbar-color: #3b82f6 #1f2937; /* thumb (blue-500) and track (gray-800) */
+}
+
+/* WebKit Browsers */
+.chat-scrollbar::-webkit-scrollbar {
+  width: 6px;
+}
+
+.chat-scrollbar::-webkit-scrollbar-track {
+  background: #1f2937; /* gray-800 */
+}
+
+.chat-scrollbar::-webkit-scrollbar-thumb {
+  background-color: #3b82f6; /* blue-500 */
+  border-radius: 9999px;
+  transition: background-color 0.3s;
+}
+
+.chat-scrollbar::-webkit-scrollbar-thumb:hover {
+  background-color: #2563eb; /* blue-600 on hover */
+}
